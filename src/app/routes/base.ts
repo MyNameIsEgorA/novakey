@@ -1,0 +1,25 @@
+export const AppRoutes = {
+  authUserSelection: "/auth/user_selection",
+  authBuyer: "/auth/buyer",
+  authDeveloper: "/auth/developer",
+  buyer: {
+    home: "/buyer/home",
+    map: "/buyer/map",
+    list: "/buyer/list",
+    chats: "/buyer/chats",
+    profile: "/buyer/profile",
+    object_info: "/buyer/object_info/:id",
+    vr: "/buyer/vr",
+  },
+  developer: {
+    main: "/developer/main",
+    map: "/developer/map",
+    myObjects: "/developer/my_objects",
+    crm: "/developer/crm",
+    calendar: "/developer/calendar",
+    profile: "/developer/profile",
+    addObject: "/developer/add_object",
+    chats: "/developer/chats",
+    object_info: "/developer/object_info/:id",
+  },
+};
